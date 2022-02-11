@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+.index-body {
+  background: url('../img/pexels-pixabay-208603.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+/* Meniu Principal */
+
+.meniu-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8080808f;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4rem;
+}
+
+.meniu-principal h1 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin: 0rem 0.6rem;
+}
+
+.meniu-principal a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.meniu-principal a:hover , .meniu-principal .current{
+  color: #f3f3f3;
+}
+
+/* Meniu Secundar - Drepturi */
+
+.meniu-stanga {
+  display: list-item;
+  margin: 3rem;
+  margin-top: 2.5rem;
+  list-style: none;
+  float: left;
+  width: 20vw;
+  border: solid 2px black;
+  position: fixed;
+  background-color: rgba(51, 51, 51, 0.5);
+  /* position: absolute; */
+  top: 45%;
+  transform: translateY(-50%);  
+  border-radius: 1rem;
+
+}
+
+.meniu-stanga h1 {
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.meniu-stanga h1:last-child {
+  padding: 0.2rem;
+  text-align: center;
+  padding-bottom: 0.4rem;
+}
+
+.meniu-stanga a {
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-size: 1.4rem;
+  border: solid 2px #333;
+  font-weight: bolder;
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+
+.meniu-stanga a:hover, .meniu-stanga .current {
+  color: #ffffff;
+  background-color: rgba(73, 73, 73, 0.678);
+}
+
+/* Continut drepturi */
+
+.continut-drepturi {
+  width: 70vw;
+  float: right;
+  margin-right: 3rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  color: rgb(221, 221, 221);
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.continut-drepturi h1 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Video */
+#video {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Alege-ti Facultatea */
+
+.aplicatie-facultate {
+  background-color: rgba(51, 51, 51, 0.5);
+  margin: 5rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.aplicatie-facultate .titlu-aplicatie {
+  
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+}
+
+.aplicatie-facultate .butoane-aplicatie {
+  padding-top: 2rem;
+}
+
+.aplicatie-facultate .butoane-aplicatie label {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+.aplicatie-facultate .butoane-aplicatie .btn {
+  font-size: 1.4rem;
+  padding: 0.6rem;
+  background: cornsilk;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.aplicatie-facultate .butoane-aplicatie .btn:hover {
+  background: rgb(255, 233, 147);
+  cursor: pointer;
+}
+
+.aplicatie-facultate .rezultat-aplicatie .titlu-rezultat h1 span{
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.aplicatie-facultate .rezultat-aplicatie .facultati-rezultat {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.rand-5 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+
+#citate .citat {
+  display: flex;
+  height: 10rem;
+  align-items: center;
+  justify-content: space-around;
+  margin: 6rem;
+
+}
+
+#citate .citat h1, #citate .citat img {
+  padding: 1rem;
+}
+
+#citate .citat h1 {
+  background-color: rgba(51, 51, 51, 0.37);
+  border-radius: 4rem;
+  color: #fff;
+  text-align: center;
+  padding: 4rem;
+}

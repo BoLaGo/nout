@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Source+Serif+4&display=swap"
+    rel="stylesheet">
+  <title>Alege-ti Facultatea!</title>
+</head>
+
+<body class="index-body">
+  <nav class="meniu-principal">
+    <h1><a href="index.html">Teoria Generala a Dreptului</a></h1>
+    <h1><a href="galerie.html">Galerie</a></h1>
+    <h1><a href="video.html">Video</a></h1>
+    <h1><a href="test.html">Test</a></h1>
+    <h1><a href="joc.html">Citate</a></h1>
+    <h1><a href="facultate.html" class="current">Alege-ti Facultatea!</a></h1>
+  </nav>
+
+  <div class="aplicatie-facultate">
+
+    <div class="titlu-aplicatie">
+      <h1>Alege-ti Facultatea!</h1>
+    </div>
+
+    <div class="butoane-aplicatie">
+      <button class="btn" id="nume" onclick="introduNume()" style="background: cornsilk;">Introdu Numele Tau</button>
+      <button class="btn" id="medie" onclick="introduMedie()" style="background: cornsilk;">Introdu Media Ta</button>
+      <button class="btn" id="verifica" onclick="apasaButon()" style="background: cornsilk;">Verifica</button>
+      <button class="btn" id="reset" onclick="reseteaza()" style="background: cornsilk;">Reseteaza datele</button>
+    </div>
+
+    <div class="rezultat-aplicatie">
+      <div class="titlu-rezultat">
+        <h1><span id="text-rezultat">Introduceti datele dumneavoastra in spatiile de mai sus <br>Rezultatele vor fi
+            afisate mai jos</span></h1>
+      </div>
+
+      <div class="facultati-rezultat">
+        <h1>
+          <div id="rezultat1"></div>
+        </h1>
+        <h1>
+          <div id="rezultat2"></div>
+        </h1>
+        <h1>
+          <div id="rezultat3"></div>
+        </h1>
+        <h1>
+          <div id="rezultat4"></div>
+        </h1>
+        <h1>
+          <div id="rezultat5"></div>
+        </h1>
+        <h1>
+          <div id="rezultat6"></div>
+        </h1>
+        <h1>
+          <div id="rezultat7"></div>
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
